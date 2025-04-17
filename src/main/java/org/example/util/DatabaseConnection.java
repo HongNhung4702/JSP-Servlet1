@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private final String jdbcURL = "jdbc:mysql://localhost:3306/social_media";
+    private final String jdbcURL = "jdbc:mysql://localhost:3306/dump";
     private final String jdbcUsername = "root";
-    private final String jdbcPassword = "Dai-1234";
+    private final String jdbcPassword = "1234";
 
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
